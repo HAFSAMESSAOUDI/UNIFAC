@@ -97,5 +97,5 @@ def results():
                            error=abs(D_AB_opt - D_AB_exp), plot_json=plot_json)
 
 
-#if __name__ == '__main__':
- #   app.run(debug=True)
+if __name__ == '__main__':
+   app.run(debug=True)
